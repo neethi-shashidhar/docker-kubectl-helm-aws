@@ -1,6 +1,6 @@
 # Update versions as needed.
-FROM lachlanevenson/k8s-helm:v2.14.1
-FROM lachlanevenson/k8s-kubectl:v1.15.0
+FROM lachlanevenson/k8s-helm:v3.6.2
+FROM lachlanevenson/k8s-kubectl:v1.20.7
 
 # We build our own base awscli alpine image becase there is not yet an official
 # aws/aws-cli Alpine Docker image or stable Alpine package.
